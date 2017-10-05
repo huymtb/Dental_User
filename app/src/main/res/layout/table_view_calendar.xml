@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/row_day_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_height_calendar">
+
+        <TextView
+            android:id="@+id/tv_slash"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_morning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_column_1"
+            android:gravity="center"
+            android:text="@string/morning"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar_text" />
+
+        <TextView
+            android:id="@+id/tv_afternoon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_column_2"
+            android:gravity="center"
+            android:text="@string/afternoon"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar_text"  />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_monday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_height_calendar">
+
+        <TextView
+            android:id="@+id/tv_monday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_table_calendar_row_1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/monday"
+            android:textSize="@dimen/textsize_calendar_text" />
+
+        <TextView
+            android:id="@+id/textViewMondayMorning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+
+        <TextView
+            android:id="@+id/textViewMondayAfternoon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_tuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_height_calendar">
+
+        <TextView
+            android:id="@+id/tv_tuesday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_table_calendar_row_1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/tuesday"
+            android:textSize="@dimen/textsize_calendar_text" />
+
+        <TextView
+            android:id="@+id/textViewTuesdayMorning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+
+        <TextView
+            android:id="@+id/textViewTuesdayAfternoon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_wednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_height_calendar">
+
+        <TextView
+            android:id="@+id/tv_wednesday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_table_calendar_row_1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/wednesday"
+            android:textSize="@dimen/textsize_calendar_text" />
+
+        <TextView
+            android:id="@+id/textViewWednesdayMorning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+
+        <TextView
+            android:id="@+id/textViewWednesdayAfternoon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar"  />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_thursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_height_calendar">
+
+        <TextView
+            android:id="@+id/tv_thursday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_table_calendar_row_1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/thursday"
+            android:textSize="@dimen/textsize_calendar_text" />
+
+        <TextView
+            android:id="@+id/textViewThursdayMorning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+
+        <TextView
+            android:id="@+id/textViewThursdayArternoon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_friday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_height_calendar">
+
+        <TextView
+            android:id="@+id/tv_friday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_table_calendar_row_1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/friday"
+            android:textSize="@dimen/textsize_calendar_text" />
+
+        <TextView
+            android:id="@+id/textViewFridayMorning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+
+        <TextView
+            android:id="@+id/textViewFridayAfternoon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_saturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_height_calendar">
+
+        <TextView
+            android:id="@+id/tv_saturday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_table_calendar_row_2"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/saturday"
+            android:textSize="@dimen/textsize_calendar_text" />
+
+        <TextView
+            android:id="@+id/textViewSatturdayMorning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+
+        <TextView
+            android:id="@+id/textViewSatturdayAfternoon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_height_calendar">
+
+        <TextView
+            android:id="@+id/tv_sunday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_table_calendar_row_2"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/sunday"
+            android:textSize="@dimen/textsize_calendar_text" />
+
+        <TextView
+            android:id="@+id/textViewSundayMorning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+
+        <TextView
+            android:id="@+id/textViewSundayAfternoon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_holiday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/size_height_calendar">
+
+        <TextView
+            android:id="@+id/tv_holiday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/draw_table_calendar_row_2"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/holiday"
+            android:textSize="@dimen/textsize_calendar_text" />
+
+        <TextView
+            android:id="@+id/textViewHolidayMorning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+
+        <TextView
+            android:id="@+id/textViewHolidayAfternoon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/draw_table_calendar_white"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize_calendar" />
+    </TableRow>
+
+</TableLayout>

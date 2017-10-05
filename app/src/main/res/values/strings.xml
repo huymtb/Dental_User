@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Dental User</string>
+    <string name="toolbar_top_text">いとう歯科クリニック</string>
+    <string name="toolbar_info_text">当院について</string>
+    <string name="toolbar_chat_text">チャット</string>
+    <string name="toolbar_user_text">ユーザー情報</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_info_bottom">当院について</string>
+    <string name="text_map_bottom">地図</string>
+    <string name="text_chat_bottom">チャット</string>
+    <string name="text_contact_bottom">ユーザ情報</string>
+    <string name="text_home_bottom">ホーム</string>
+
+    <!--toolbar-->
+    <string name="text_top_logout">ログアウトt</string>
+    <string name="text_top_refresh">リフレッシュする</string>
+
+    <!--layout login-->
+    <string name="text_login_user">診察券番号</string>
+    <string name="text_login_pass">パスワード</string>
+    <string name="text_login_remember">次回から自動でログインする</string>
+    <string name="text_login">ログイン</string>
+    <string name="text_username_error">ユーザー名を入力してください</string>
+    <string name="text_password_error">パスワードを入力してください</string>
+
+    <!--fragment home-->
+    <string name="text_top_1">山田 太郎 様</string>
+    <string name="text_top_1_1">ID: 111111</string>
+    <string name="text_top_1_2">次回の予約は</string>
+    <string name="text_top_1_3">2 月 23 日</string>
+    <string name="text_top_1_4">16:30</string>
+    <string name="text_top_1_5">日付 :</string>
+    <string name="text_top_1_6">時間 :</string>
+    <string name="btn_top_1">電話する</string>
+    <string name="btn_top_2">チャットする</string>
+    <string name="btn_call_dialog">この番号に電話しますか？</string>
+
+    <!--fragment info-->
+    <string name="text_info_1">住所</string>
+    <string name="text_info_1_1">神奈川県相模原市緑区橋本  6-1-24</string>
+    <string name="text_info_1_2">味の食彩館はしもと3F (橋本駅北口を出てすぐ)</string>
+    <string name="text_info_2">TEL</string>
+    <string name="text_info_2_1">03-3263-0219</string>
+    <string name="text_info_3">診療時間</string>
+    <string name="text_info_4">休診日</string>
+    <string name="text_info_4_1">水曜午後・日曜・祝祭日</string>
+    <string name="text_info_5">診療項目</string>
+    <string name="text_info_5_1">虫歯治療・歯周病治療・ホワイトニング・インプラント・</string>
+    <string name="text_info_5_2">矯正</string>
+    <string name="morning">午前</string>
+    <string name="afternoon">午後</string>
+    <string name="monday">月</string>
+    <string name="tuesday">火</string>
+    <string name="wednesday">水</string>
+    <string name="thursday">木</string>
+    <string name="friday">金</string>
+    <string name="saturday">土</string>
+    <string name="sunday">日</string>
+    <string name="holiday">祝日</string>
+    <string name="text_disable">X</string>
+
+    <!--fragment map-->
+    <string name="text_map_1">距離: 0.0 km, 所要時間: 0 mins</string>
+    <string name="text_map_address_not_exist">アドレスが存在しません</string>
+    <string name="text_map_no_direction">方向がない</string>
+    <string name="text_map_km">距離:</string>
+    <string name="text_map_mins">所要時間:</string>
+    <string name="open_location_settings">設定</string>
+    <string name="gps_network_not_enabled">GPSが有効化されていません。あなたは、設定メニューに行きたいですか？</string>
+
+    <!--fragment userModel-->
+    <string name="text_contacts_toolbar">ユーザ情報</string>
+    <string name="text_contacts_0">診察券番号</string>
+    <string name="text_contacts_0_0">00000000</string>
+    <string name="text_contacts_1">お名前</string>
+    <string name="text_contacts_1_1">山田太郎</string>
+    <string name="text_contacts_2">お名前かな</string>
+    <string name="text_contacts_2_1">やまだ  たろう</string>
+    <string name="text_contacts_3">生年月日</string>
+    <string name="text_contacts_3_1">1990年  4月  28日</string>
+    <string name="text_contacts_4">次回予約</string>
+    <string name="text_contacts_4_1">1990年  4月  28日</string>
+
+    <string name="text_change_pass">パスワード変更</string>
+    <string name="text_enter_old_password">以前のパスワード</string>
+    <string name="text_enter_new_password">新しいパスワード</string>
+    <string name="text_enter_confirm_password">パスワードを認証する</string>
+
+    <string name="text_change_name">名前の変更</string>
+    <string name="text_enter_first_name">名</string>
+    <string name="text_enter_last_name">苗字</string>
+    <string name="text_enter_first_nickname">最初のニックネーム</string>
+    <string name="text_enter_last_nickname">最後のニックネーム</string>
+
+    <!--fragment chat-->
+    <string name="text_input">何か入力してください</string>
+    <string name="text_dialog">タップして記録する</string>
+    <string name="dialog_dialog_start">録音開始</string>
+    <string name="dialog_dialog_stop">録音を停止しました</string>
+    <string name="open_gallery">アルバム</string>
+    <string name="open_camera">カメラ</string>
+    <string name="msg_error_chat">あなたのメッセージを入力してください</string>
+
+    <string name="text_call_1">SG歯科医院</string>
+    <string name="text_call_2">通話中</string>
+
+    <string name="title_dialog_custom_member">選択するためにタップしてください。</string>
+
+    <string name="cancel">キャンセル</string>
+    <string name="ok">オーケー</string>
+
+    <string name="title_network_not_available">ネットワーク接続なし</string><!--no network connection-->
+    <string name="message_network_not_available">あなたのインターネット接続がオフであるように見えます。 それをオンにしてもう一度やり直してください</string><!--it looks like your internet connection is off. Please turn it on and try again-->
+
+    <string name="copyright">Copyright by Prostage LLC</string>
+    <string name="unknown_error_network">インターネット接続なし!!!</string>
+    <string name="upgrade_to_pro">プロにアップグレードしてください</string>
+    <string name="some_permission_denied">一部のアクセス許可が拒否されました</string>
+    <string name="call_permission_denied">電話をかけるグランド許可</string>
+    <string name="micro_permission_denied">マイクを作るための大した許可</string>
+    <string name="click_back_again_to_exit">終了するにはもう一度[戻る]をクリックしてください</string>
+    <string name="more">もっと</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color_fragment"
+    tools:context=".fragment.MapFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_distance_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:text="@string/text_map_1"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/btnGuide"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/draw_map_btn"
+        app:srcCompat="@drawable/ic_guide" />
+
+</RelativeLayout>

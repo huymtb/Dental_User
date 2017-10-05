@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:textSize="@dimen/textsize_login"
+        android:textColor="@color/view_below_toolbar1"
+        android:textAlignment="center" />
+
+    <com.prostage.l_pha.dental_user.utils.CircleImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageViewUserChat"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/ic_avatar_right"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentMessageChat"
+        android:layout_below="@+id/textViewDate"
+        android:layout_toEndOf="@+id/imageViewUserChatOther"
+        android:layout_toLeftOf="@+id/imageViewUserChat"
+        android:layout_toStartOf="@+id/imageViewUserChat">
+
+        <TextView
+            android:id="@+id/textViewTimeStamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_gravity="bottom"
+            android:padding="5dp"
+            android:textColor="@color/text_color"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:background="@drawable/in_message_bg">
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:id="@+id/emojiconTextViewMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                emojicon:emojiconSize="28sp"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

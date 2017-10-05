@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2156bf</color>
+    <color name="colorAccent">#777777</color>
+    <color name="colorBlack">#000000</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textcolorPrimaryDark">#3350a3</color>
+
+    <!--color toolbar-->
+    <color name="toolbar_color_top">#ffffff</color>
+    <color name="toolbar_color_bottom">#1c4caa</color>
+
+    <!--color custom-->
+    <color name="text_color_bottom">#929292</color>
+    <color name="view_below_toolbar">#ADADAD</color>
+    <color name="view_below_toolbar1">#1c4caa</color>
+    <color name="title_background_color">#F7F7F7</color>
+    <color name="view_color_dialog">#dbbcbbbb</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#E0001A</color>
+
+    <color name="btn_text_color">#a0befd</color>
+    <color name="btn_text_color1">#ffffff</color>
+    <color name="btn_text_color2">#2156bf</color>
+
+    <color name="text_color">#858585</color>
+    <color name="text_color1">#454545</color>
+    <color name="text_color_login">#cee0f5</color>
+    <color name="text_color_fragment">#e6e6e6</color>
+    <color name="text_color_user_title">#020202</color>
+    <color name="text_color_user_edit">#777777</color>
+
+    <!--info-->
+    <color name="text_color_info_column_1">#ffecc1</color>
+    <color name="text_color_info_column_2">#cedeff</color>
+    <color name="text_color_info_row_1">#e2f0cd</color>
+    <color name="text_color_info_row_2">#ffc5ba</color>
+
+    <!--home-->
+    <color name="btn_color_home">#2156bf</color>
+    <color name="btn_color_home_selected">#1c4caa</color>
+
+    <color name="strokeEditText">#B1BCBE</color>
+    <color name="borderCalendarColor">#C4C4C4</color>
+
+</resources>
+

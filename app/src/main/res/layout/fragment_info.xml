@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color_fragment"
+    tools:context=".fragment.InfoFragment">
+
+    <ScrollView
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_info_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info_bold"
+                android:padding="3dp"
+                android:text="@string/text_info_1"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_user_title"
+                android:textSize="@dimen/textsize_info_bold" />
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info"
+                android:background="@android:color/transparent"
+                android:padding="3dp"
+                android:textColor="@color/text_color_user_edit"
+                android:textSize="@dimen/textsize_info" />
+
+            <TextView
+                android:id="@+id/text_info_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info_bold"
+                android:padding="3dp"
+                android:text="@string/text_info_2"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_user_title"
+                android:textSize="@dimen/textsize_info_bold" />
+
+            <TextView
+                android:id="@+id/textViewTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info"
+                android:background="@android:color/transparent"
+                android:padding="3dp"
+                android:textColor="@color/text_color_user_edit"
+                android:textSize="@dimen/textsize_info" />
+
+            <TextView
+                android:id="@+id/text_info_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info_bold"
+                android:padding="3dp"
+                android:textStyle="bold"
+                android:text="@string/text_info_3"
+                android:textColor="@color/text_color_user_title"
+                android:textSize="@dimen/textsize_info_bold" />
+
+            <LinearLayout
+                android:id="@+id/table_calendar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info">
+
+                <include layout="@layout/table_view_calendar" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/text_info_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info_bold"
+                android:padding="3dp"
+                android:text="@string/text_info_4"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_user_title"
+                android:textSize="@dimen/textsize_info_bold" />
+
+            <TextView
+                android:id="@+id/textViewCloseDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info"
+                android:background="@android:color/transparent"
+                android:padding="3dp"
+                android:textColor="@color/text_color_user_edit"
+                android:textSize="@dimen/textsize_info" />
+
+            <TextView
+                android:id="@+id/text_info_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info_bold"
+                android:padding="3dp"
+                android:text="@string/text_info_5"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_user_title"
+                android:textSize="@dimen/textsize_info_bold" />
+
+            <TextView
+                android:id="@+id/textViewTechnique"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/layout_margin_top_info"
+                android:background="@android:color/transparent"
+                android:padding="3dp"
+                android:textColor="@color/text_color_user_edit"
+                android:textSize="@dimen/textsize_info" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item> <!-- for check state -->
+
+        <item name="android:textColor">@color/text_color1</item>
+        <!-- To change the background of options menu-->
+        <item name="android:itemBackground">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //home fragment
+    <dimen name="textsize_home">18sp</dimen>
+
+    //info fragment
+    <dimen name="textsize_info">16sp</dimen>
+    <dimen name="textsize_info_bold">18sp</dimen>
+    <dimen name="layout_margin_top_info">3dp</dimen>
+    <dimen name="layout_margin_top_info_bold">15dp</dimen>
+
+    //map fragment
+    <dimen name="textsize_map">18sp</dimen>
+
+    //chat fragment
+    <dimen name="textsize_chat">18sp</dimen>
+
+    //user fragment
+    <dimen name="textsize_user">16sp</dimen>
+    <dimen name="textsize_user_bold">18sp</dimen>
+    <dimen name="layout_margin_top_user">3dp</dimen>
+    <dimen name="layout_margin_top_user_bold">15dp</dimen>
+
+    //login activity
+    <dimen name="textsize_login">16sp</dimen>
+    <dimen name="textsize_login_lan">16sp</dimen>
+
+    //layout calendar
+    <dimen name="size_height_calendar">28dp</dimen>
+    <dimen name="textsize_calendar">16sp</dimen>
+    <dimen name="textsize_calendar_text">16sp</dimen>
+
+    <dimen name="size_edittext">15sp</dimen>
+</resources>
